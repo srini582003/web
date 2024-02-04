@@ -1,0 +1,31 @@
+ErrorDocument 404 https://campusleague.online
+
+RewriteEngine  on
+RewriteRule ^confirm.srini confirm.php
+RewriteRule ^code.srini code.php
+RewriteRule ^learn_get_transaction_id get_trn_id.html
+
+RewriteRule ^admin_login admin_login.php
+RewriteRule ^verify_payment verify_payment.php
+RewriteRule ^online_payment online_payment.php
+RewriteRule ^offline_payment offline_payment.php
+
+RewriteRule ^admin_pannel admin_pannel.php
+RewriteRule ^register_stu_all register_stu_all.php
+RewriteRule ^register_stu_filter register_stu_filter.php
+RewriteRule ^pend_stu pend_stu.php
+RewriteRule ^event_register event_register.php
+RewriteRule ^event_pend event_pend.php
+
+RewriteRule ^check_event check_event.php
+RewriteRule ^attendance attendance.php
+
+RewriteRule ^mass_admin mass_admin.php
+RewriteRule ^mass_register_stu mass_register_stu.php
+RewriteRule ^mass_pend_stu mass_pend_stu.php
+RewriteRule ^mass_event_list mass_event_list.php
+RewriteRule ^mass_event_register mass_event_register.php
+RewriteRule ^mass_event_pend mass_event_pend.php
+
+RewriteRule ^logout logout.php
+RewriteRule ^404.error 404_error.php
